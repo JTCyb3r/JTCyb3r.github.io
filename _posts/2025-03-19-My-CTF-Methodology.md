@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Document - Writing Posts
+title: My CTF Methodology
 mathjax: true
 ---
 Hello! Given that the majority of posts on this website will be writeups of CTF's, I will first be detailing the methodology by which these writeups will be created.
