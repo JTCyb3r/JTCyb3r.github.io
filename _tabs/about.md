@@ -4,5 +4,9 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-> Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
-{: .prompt-tip }
+Welcome to JTCyber! This is my own personal blog/portfolio. Its dedicated to covering a range of cybersecurity topics, primarily CTF's, but with some more long form posts about cybersecurity topics of personal interest also.
+
+📬 **Contact:**  
+- LinkedIn: [YourLinkedIn]([https://www.linkedin.com/in/jake-turp-8a0aa41b9/])
+
+💡 **Security is a journey—keep hacking, keep learning!**  
