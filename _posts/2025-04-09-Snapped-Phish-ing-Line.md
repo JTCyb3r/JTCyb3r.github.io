@@ -57,6 +57,29 @@ Inside this .txt file, we can see the email address of the user who submitted th
 
 *Q9:What was the email address used by the adversary to collect compromised credentials?*
 
+To answer this, we must explore .zip file present on the /data/ directory of the website earlier. Within this zip, is a file named submit.php (Can take a wild guess what this script does...)
+
+Opening this script in a text editor, and searching for "@" symbols, gives us an email address. This email address is assigned to the variable "send"
 
 *Q10:The adversary used other email addresses in the obtained phishing kit. What is the email address that ends in "@gmail.com"?*
+
+Whilst we could manually search through each file for the email. Given that we know its structure from the question, we can use grep.
+
+Unzipping the file, and then using the command 
+
+grep -r "@gmail.com"
+
+Gives us the following answer.
+
 *Q11:What is the hidden flag?*
+The hint states we are looking for a .txt file, and that with some adjustments should be downloadable from the phishing url, urging us to look through every directory
+
+Exploring the domain, we see a folder that when opened, gives us a "Not Found" error
+
+We know we are looking for a .txt file, and its a flag. So its reasonable to assume its most likely named flag.txt. Using this assumption, inputting this into the url gives us a result
+
+This looks like base64, so lets head to CyberChef once more and decode it
+
+It's the expected format of THM{}, but its in reverse. So lets reverse it once more
+
+And that's it, the room is completed!
