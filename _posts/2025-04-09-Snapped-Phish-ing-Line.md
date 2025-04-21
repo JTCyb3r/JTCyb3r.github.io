@@ -15,6 +15,7 @@ We're given a scenario brief, several employees from various departments receive
 *Q1:Who is the individual who received an email attachment containing a PDF?* 
 
 We're provided 5 of these phishing emails in a .eml format. Opening them with Thunderbird we easily find which email contained a PDF attachment and who it was addressed to.
+
 ![Q1](/assets/TryHackMe/Snapped-Phish-ing-Line/Q1.png)
 
 
@@ -43,6 +44,7 @@ But we know of the existence of the /data/ directory from the redirection URL in
 *Q5:What is the SHA256 hash of the phishing kit archive?*
 
 After downloading the .zip phishing kit, we can run the command sha256sum to generate the SHA256 hash of the file
+
 ![Q5](/assets/TryHackMe/Snapped-Phish-ing-Line/Q5.png)
 
 *Q6:When was the phishing kit archive first submitted? (format: YYYY-MM-DD HH:MM:SS UTC)*
