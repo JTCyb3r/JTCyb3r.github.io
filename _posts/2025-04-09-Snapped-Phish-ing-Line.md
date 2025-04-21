@@ -1,6 +1,6 @@
 ---
 title: "Writeup - Snapped Phish-ing Line"
-date: 2024-03-31 10:00:00 +0000
+date: 2024-04-21 10:00:00 +0000
 categories: [Writeups]
 tags: [phishing]
 image: /assets/TryHackMe/Snapped-Phish-ing-Line/Thumbnail.png
